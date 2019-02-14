@@ -91,31 +91,35 @@ h4 {
 .stickyElementLeft {
   position: sticky;
   position: -webkit-sticky;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.9);
   width: 25%;
   height: 25%;
   top: 100px;
   display: flex;
+  font-size:1.2em;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 6px #000;
   color: #fff;
   margin-left: 10%;
+  padding: 30px;
   }
 
 .stickyElementRight {
   position: sticky;
   position: -webkit-sticky;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.9);
   width: 25%;
   height: 25%;
   top: 100px;
   display: flex;
+  font-size:1.2em;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 6px #000;
   color: #fff;
   margin-left: 60%;
+  padding: 30px;
   }
   
 .stickyWrapper{
