@@ -62,7 +62,7 @@ h4 {
 
 .map01 {
   background-image: url("../img/map01.png");
-  min-height: 50%;
+  min-height: 100%;
 }
 #mapid {
   min-height: 100%;
@@ -79,6 +79,13 @@ h4 {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.centerImg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .caption {

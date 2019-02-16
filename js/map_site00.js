@@ -20,10 +20,10 @@ mymap.scrollWheelZoom.disable();
 //mymap.boxZoom.disable();
 //mymap.keyboard.disable();
 
-function onMapClick(e) {
+/*function onMapClick(e) {
     alert("You clicked the map at " + e.latlng);
 }
-mymap.on('click', onMapClick);
+mymap.on('click', onMapClick);*/
 
 var markers = L.markerClusterGroup({ chunkedLoading: true });
 
