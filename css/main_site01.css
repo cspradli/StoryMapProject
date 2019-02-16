@@ -16,7 +16,7 @@ h4 {
   margin-right: 18%;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .officer, .map01 {
+.bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .officer, .merlin {
   position: relative;
   opacity: 0.95;
   background-attachment: fixed;
@@ -60,8 +60,8 @@ h4 {
   min-height: 100%;
 }
 
-.map01 {
-  background-image: url("../img/map01.png");
+.merlin {
+  background-image: url("../img/merlin.jpg");
   min-height: 100%;
 }
 #mapid {
@@ -96,7 +96,11 @@ h4 {
   text-align: center;
   color: #000;
 }
-
+.title{
+  font-size: 25px;
+  letter-spacing: 10px;
+  color: #000;
+}
 .caption span.border {
   background-color: #fff;
   color: #000;
