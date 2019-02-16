@@ -191,4 +191,9 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
   }
+
+  .storyStyle{
+    margin-left: 2%;
+    margin-right: 2%;
+  }
 }
