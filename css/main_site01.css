@@ -10,7 +10,7 @@ h4 {
   margin-right: 18%;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .officer {
+.bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .officer, .map01 {
   position: relative;
   opacity: 0.95;
   background-attachment: fixed;
@@ -54,6 +54,10 @@ h4 {
   min-height: 100%;
 }
 
+.map01 {
+  background-image: url("../img/map01.png");
+  min-height: 50%;
+}
 #mapid {
   min-height: 100%;
   position: relative;
@@ -96,13 +100,13 @@ h4 {
   height: 25%;
   top: 100px;
   display: flex;
-  font-size:1.2em;
+  font-size:1.1em;
   justify-content: center;
   align-items: center;
   box-shadow: 0 0 6px #000;
   color: #fff;
   margin-left: 10%;
-  padding: 30px;
+  padding: 15px;
   }
 
 .stickyElementRight {
