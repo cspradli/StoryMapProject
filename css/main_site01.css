@@ -1,19 +1,19 @@
 /*--
-  --Author: Caleb Spradlin
-  --Version: 0.3 
-  --NM 420 Storymap Project
+  Author: Caleb Spradlin
+  Version: 0.3 
+  NM 420 Storymap Project
 -*/
 
 body, html {
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+  color: rgb(77, 77, 77);
 }
 
 h4 {
-  margin-left: 18%; 
-  margin-right: 18%;
+  margin-left: 5%; 
+  margin-right: 5%;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .officer, .merlin {
@@ -76,7 +76,7 @@ h4 {
 }
 
 .capBig{
-  color:#777;
+  color:rgb(80, 80, 80);
   background-color:white;
   text-align:center;
   padding:50px 80px;
@@ -84,7 +84,7 @@ h4 {
 }
 
 .capSmall{
-  color:#777;
+  color:rgb(80, 80, 80);
   background-color:white;
   text-align:center;
   padding:20px 80px;
@@ -139,7 +139,7 @@ h4 {
 .stickyElementLeft {
   position: sticky;
   position: -webkit-sticky;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 25%;
   height: 25%;
   top: 100px;
@@ -156,7 +156,7 @@ h4 {
 .stickyElementRight {
   position: sticky;
   position: -webkit-sticky;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
   width: 25%;
   height: 25%;
   top: 100px;
@@ -168,8 +168,24 @@ h4 {
   color: #fff;
   margin-left: 60%;
   padding: 30px;
-  }
-  
+}
+
+.stickyElementWhite {
+  position: sticky;
+  position: -webkit-sticky;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 25%;
+  height: 25%;
+  top: 100px;
+  display: flex;
+  font-size:1.1em;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-left: 5%;
+  padding: 15px;
+}
+
 .stickyWrapper{
   position: absolute;
   margin-top: 200px;
@@ -192,6 +208,10 @@ h3 {
     background-attachment: scroll;
   }
 
+  h4{
+    margin-left: 0%;
+    margin-right: 0%;
+  }
   .storyStyle{
     margin-left: 2%;
     margin-right: 2%;
