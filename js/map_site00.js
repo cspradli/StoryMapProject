@@ -17,7 +17,7 @@ mymap.scrollWheelZoom.disable();
 
 var markers = L.markerClusterGroup({ chunkedLoading: true });
 
-$.get('/data/migDeaths.csv', function(csvContents) {
+$.get('data/migDeaths.csv', function(csvContents) {
     var geoLayer = L.geoCsv(csvContents, {
         firstLineTitles: true, 
         fieldSeparator: ',',
