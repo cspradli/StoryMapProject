@@ -16,7 +16,7 @@ h4 {
   margin-right: 5%;
 }
 
-.bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .officer, .merlin {
+.bgimg-1, .bgimg-2, .bgimg-3, .crossing, .trees, .grande, .cross, .crossing, .merlin {
   position: relative;
   opacity: 0.95;
   background-attachment: fixed;
@@ -55,8 +55,8 @@ h4 {
   min-height: 100%;
 }
 
-.officer {
-  background-image: url("../img/officer.jpg");
+.crossing {
+  background-image: url("../img/crossing.jpg");
   min-height: 100%;
 }
 
